@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#064b31">
+  <meta name="description" content="BARRIO conecta comercios y personas para que lo local crezca en comunidad.">
+  <title>BARRIO — El comercio local se encuentra aquí</title>
+  <link rel="preload" as="image" href="assets/welcome-night.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="BARRIO, inicio">
+      <span class="brand-flower" aria-hidden="true">✿</span><span>BARRIO</span>
+      <small>Comercio que conecta</small>
+    </a>
+    <nav class="desktop-nav" aria-label="Navegación principal">
+      <a href="#como-funciona">Cómo funciona</a>
+      <a href="#comunidad">Comunidad</a>
+    </nav>
+    <a class="button button-small button-outline header-cta" href="#lista">Unirme a la lista</a>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="inicio">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="eyebrow-dot"></span> PRÓXIMAMENTE EN TU BARRIO</span>
+        <h1>Lo que hace grande a tu barrio <em>empieza aquí.</em></h1>
+        <p class="hero-lede">Conoce los negocios que tienes cerca, conecta con otros comerciantes y haz crecer lo local en comunidad.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#lista">Quiero ser de los primeros <span aria-hidden="true">→</span></a>
+          <a class="button button-quiet" href="../prototype/index.html">Explorar la demo <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="social-proof"><div class="mini-avatars" aria-hidden="true"><span>A</span><span>M</span><span>J</span><span>+</span></div><span>Negocios de barrio, creciendo en equipo</span></div>
+      </div>
+      <div class="hero-art" aria-label="Ilustración de un barrio mexicano por la noche">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="photo-frame"><img src="assets/welcome-night.png" alt="Calle de barrio mexicano iluminada por la noche, rodeada de comercios locales" /></div>
+        <div class="floating-note note-top"><span class="note-icon note-green">⌖</span><span><strong>Tu zona, más cerca</strong><small>Roma Norte · CDMX</small></span></div>
+        <div class="floating-note note-bottom"><span class="note-icon note-orange">✿</span><span><strong>Hecho en el barrio</strong><small>Personas reales, negocios reales</small></span></div>
+      </div>
+    </section>
+
+    <section class="value-strip" id="comunidad">
+      <div class="section-wrap value-grid">
+        <div><span class="value-icon">⌖</span><p><strong>Descubre cerca</strong><small>Encuentra tiendas, cafés y servicios de tu zona.</small></p></div>
+        <div><span class="value-icon">↗</span><p><strong>Conecta de verdad</strong><small>Conversa y colabora con otros comercios.</small></p></div>
+        <div><span class="value-icon">✿</span><p><strong>Crece en comunidad</strong><small>Comparte lo que haces y apoya lo local.</small></p></div>
+      </div>
+    </section>
+
+    <section class="how section-wrap" id="como-funciona">
+      <div class="section-heading"><span class="eyebrow">HECHO PARA EL COMERCIO LOCAL</span><h2>Tu comunidad está más cerca de lo que crees.</h2><p>BARRIO reúne en un solo lugar a quienes le dan vida a cada colonia.</p></div>
+      <div class="steps-grid">
+        <article class="step-card"><span class="step-number">01</span><div class="step-visual visual-map"><span>☕</span><span>✿</span><span>⌂</span><b>ROMA NORTE</b></div><h3>Explora tu zona</h3><p>Recorre un mapa ilustrado y descubre negocios y comunidades cerca de ti.</p></article>
+        <article class="step-card"><span class="step-number">02</span><div class="step-visual visual-people"><span>👩🏽‍🍳</span><span>🤝</span><span>🧑🏽‍🔧</span></div><h3>Conoce a tus vecinos</h3><p>Encuentra comerciantes, comparte recomendaciones y crea nuevas conexiones.</p></article>
+        <article class="step-card"><span class="step-number">03</span><div class="step-visual visual-growth"><span>🌱</span><b>+ comunidad</b><span>✨</span></div><h3>Haz crecer lo local</h3><p>Cuenta lo que pasa en tu negocio y forma parte de una red cercana.</p></article>
+      </div>
+    </section>
+
+    <section class="waitlist-section" id="lista">
+      <div class="waitlist-card">
+        <div class="waitlist-copy"><span class="eyebrow eyebrow-light">EL BARRIO CRECE CONTIGO</span><h2>¿Nos encontramos por aquí?</h2><p>Déjanos tu correo y te avisamos cuando BARRIO esté listo para tu comunidad.</p><div class="waitlist-promise"><span>✓</span> Solo novedades de BARRIO. Sin spam.</div></div>
+        <form id="waitlist-form" class="waitlist-form" novalidate>
+          <label for="email">Tu correo electrónico</label>
+          <div class="input-row"><input id="email" name="email" type="email" placeholder="hola@tunegocio.mx" autocomplete="email" required><button class="button button-orange" type="submit">Quiero entrar <span aria-hidden="true">→</span></button></div>
+          <p class="form-message" id="form-message" aria-live="polite">Al registrarte aceptas recibir noticias sobre el lanzamiento de BARRIO.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand footer-brand" href="#inicio"><span class="brand-flower" aria-hidden="true">✿</span><span>BARRIO</span><small>Comercio que conecta</small></a><span>Una comunidad para que lo local siga creciendo.</span><a href="../prototype/index.html">Ver demo interactiva ↗</a></footer>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
