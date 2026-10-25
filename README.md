@@ -1,6 +1,6 @@
 # BARRIO
 
-Base inicial del proyecto BARRIO: una landing pública para presentar la propuesta y una demo navegable de la experiencia. El repositorio todavía no contiene backend, base de datos, autenticación real ni procesamiento de pagos.
+Base inicial del proyecto BARRIO: una landing pública para presentar la propuesta y una demo navegable de la experiencia. El repositorio incluye el modelo de base de datos (`database/`); todavía no contiene backend ni procesamiento de pagos real.
 
 ## Estructura
 
@@ -9,7 +9,13 @@ apps/
   landing/      Landing estática y formulario de lista de espera
   prototype/    Demo local navegable de BARRIO
   android/      Espacio reservado para la futura app nativa
+database/
+  sql/          Esquema completo de la base de datos (tablas, vistas, procedimientos, seguridad)
+  connection-examples/  Ejemplos de conexión segura (.NET, Node.js)
+  docs/         Guías de despliegue en Azure y migración a producción
 ```
+
+Ver [`database/README.md`](database/README.md) para el detalle completo del modelo de datos y cómo desplegarlo.
 
 ## Probar localmente
 
