@@ -4,6 +4,5 @@
  * No coloques aquí tokens ni secretos.
  */
 window.BARRIO_CONFIG = {
-  waitlistEndpoint: ""
+  waitlistEndpoint: "https://formspree.io/f/mdeeaklw"
 };
-
