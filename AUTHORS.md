@@ -24,7 +24,28 @@ ValenteCreativo authored and delivered the product iteration recorded in commit
   and supporting images; and
 - the deployable `public` application and its Vercel deployment configuration.
 
-## Earlier recorded contributions
+## Arturo Vargas
+
+**GitHub:** [ArturVargas](https://github.com/ArturVargas)
+
+During [Chilangatón 2026](https://luma.com/j55anly0?tk=AR14er), a SEDECO
+event, Arturo Vargas participated in the first product iteration captured by
+this delivery. He was responsible for validating the use case in which
+merchants register inventory through WhatsApp, including the WhatsApp-agent
+prototype that uses machine learning and vision-capable models to identify
+inventory from submitted images.
+
+The planned page-to-API flow—associating a submitted image and its inventory
+with the registered merchant and tianguis—was identified during this iteration
+but was not completed in the documented delivery.
+
+## Collaborative context and earlier recorded contributions
+
+The product iteration documented in this repository is credited to
+ValenteCreativo and Arturo Vargas for the respective contributions described
+above. Its direction was informed by earlier shared ideation with Ana1Pau and
+Fernando, who were simultaneously exploring a related social-product line for
+merchants and users.
 
 The repository also preserves earlier commits attributed to
 [Ana1Pau](https://github.com/Ana1Pau), which form part of the project's
@@ -34,5 +55,5 @@ to `Barrio Dev <dev@barrio.local>`.
 ## Attribution request
 
 When this project or a derivative is continued, distributed, or presented,
-please retain this file and acknowledge ValenteCreativo for the contribution
-described above.
+please retain this file and acknowledge ValenteCreativo and Arturo Vargas for
+the contributions described above.
